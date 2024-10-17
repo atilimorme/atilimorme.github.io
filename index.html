@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATILIM ÖRME A.Ş.</title>
+    <link rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./libs/imgs-slider/slider.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media-query.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img id="logo" class="logo" src="./imgs/logo.png" alt="atilim-orme">
+        </div>
+        <div class="lng-contact">
+            <div class="lng">
+                <img class="eng-img" src="./imgs/eng.png" alt="eng">
+            </div>
+            <span class="line"></span>
+            <div class="contact-mini">
+                <span class="c-item"><a href="https://www.facebook.com/atilimorme" target="_blank"><img src="./imgs/face.png" alt="facebook" class="facebook ico-s"></a></span>
+                <span class="c-item"><a href="https://x.com/atilimorme" target="_blank"><img src="./imgs/x.png" alt="x" class="twitter ico-s"></a></span>
+                <span class="c-item"><a href="https://www.instagram.com/atilimorme/" target="_blank"><img src="./imgs/insta.png" alt="instagram" class="instagram ico-s"></a></span>
+                <span class="c-item"><a href="#"><img src="./imgs/whats.png" alt="whatsapp" class="whats ico-s"></a></span>
+                <span class="c-item"><a href="mailto:info@atilimorme.com" target="_blank"><img src="./imgs/mail.png" alt="mail" class="mail ico-s"></a></span>
+            </div>
+        </div>
+    </header>
+    <nav id="navbar" class="navbar">
+        <div class="navbar-mobile">
+            <div class="lng lng-in-navbar">
+              <img class="eng-img" src="./imgs/eng.png" alt="eng">
+            </div>
+            <div id="burger" class="burger" onclick="openBurgerList();">
+              <img class="burger-img" src="./imgs/burger.svg" alt="burger">
+            </div>
+            
+        </div>
+
+        <ul class="list">
+            <li class="item corp-item item-focus" onclick="goCorporateFunc();">CORPORATE</li>
+            <li class="item prod-item" onclick="goProductFunc();">PRODUCTS</li>
+            <li class="item fac-item" onclick="goMediaFunc();">FACTORY</li>
+            <li class="item certi-item" onclick="goCertFunc();" >CERTIFICATIONS</li>
+            <li class="item brand-item" onclick="goBrandsFunc();">BRANDS</li>
+            <li class="item map-item" onclick="goMapFunc();">MAP</li>
+            <li class="item contact-item" onclick="goContactFunc();">CONTACT US</li>
+        </ul>
+    </nav>
+    <div id="main-div" class="main-div">
+        <video class="vid-main" src="./vids/vid-main.mp4" autoplay loop muted></video>
+        <div class="grid">
+            <!-- <img src="./imgs/grid.png" alt="" class="grid-img"> -->
+        </div>
+
+
+
+        <div class="no-swiper">
+            <div class="atilim">
+              <img src="./imgs/atilim orme svg.svg" alt="">
+            </div>
+
+            <div class="texts">
+                  <p class="text">
+                      As Atılım Örme Sanayi ve Dış Ticaret A.Ş., we are proud to represent Turkey in the world under this name. As we entered the millennium era with our company, which was established in 2000 on the foundations we laid in 1990, we have also modernized the textile industry. Since our establishment, we have increased our production capacity every year and have always been one step ahead by keeping up with the developing technology.
+                      <br>
+                      As Atılım Örme, we aim to increase our quality by keeping up with the world and to become a company that is followed by the world, while starting the business life with our own resources and as a local brand. We contribute to our country’s economy by keeping a high volume of imports and maintaining high-level partnerships with Turkey’s leading textile firms. <br>
+
+                      We are at the top in the production and export of gown and mask fabric as well as leading the sector by being among the pioneers of the textile production sector. <br> In categories such as home textiles, wedding dresses, evening dresses, outerwear, underwear, medical clothing and technical textiles, we meet the needs of companies and customers at an optimum level by producing high-quality products. While we have a monthly production of 3.5 million meters in home textiles, we offer 1.5 million meters / months, 1600 colors and continuously increasing color options in wedding dresses and evening dresses. <br> At the same time, we continue to produce fabrics that will meet the needs of the entire health sector in the field of medical clothing.
+                  </p>
+            </div>
+
+            <div class="features">
+              <div class="qual fea-item">
+                  <img src="./imgs/medal.png" alt="">
+                  <p>Quality</p>
+              </div>
+              <div class="exp fea-item">
+                  <img src="./imgs/review.png" alt="">
+                  <p>Experince</p>
+              </div>
+              <div class="inno fea-item">
+                  <img src="./imgs/idea.png" alt="">
+                  <p>Innovation</p>
+              </div>
+              <div class="tech fea-item">
+                  <img src="./imgs/tech.png" alt="">
+                  <p>Technology</p>
+              </div>
+              <div class="nature fea-item">
+                  <img src="./imgs/nature.png" alt="nature friendly">
+                  <p>Nature Friendly</p>
+              </div>
+          </div>
+        </div>
+                <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="atilim">
+                    <img src="./imgs/atilim orme svg.svg" alt="">
+                </div>
+                <div class="texts">
+                    <p class="text">
+                        As Atılım Örme Sanayi ve Dış Ticaret A.Ş., we are proud to represent Turkey in the world under this name. As we entered the millennium era with our company, which was established in 2000 on the foundations we laid in 1990, we have also modernized the textile industry. Since our establishment, we have increased our production capacity every year and have always been one step ahead by keeping up with the developing technology.
+                    </p>
+                </div>
+                <img id="logo" class="logo-inside" src="./imgs/logo.png" alt="atilim-orme">
+            </div>
+            <div class="swiper-slide">
+                <div class="texts">
+                    <p class="text text2">
+                        As Atılım Örme, we aim to increase our quality by keeping up with the world and to become a company that is followed by the world, while starting the business life with our own resources and as a local brand. We contribute to our country’s economy by keeping a high volume of imports and maintaining high-level partnerships with Turkey’s leading textile firms. <br>
+
+                        We are at the top in the production and export of gown and mask fabric as well as leading the sector by being among the pioneers of the textile production sector. <br> In categories such as home textiles, wedding dresses, evening dresses, outerwear, underwear, medical clothing and technical textiles, we meet the needs of companies and customers at an optimum level by producing high-quality products. While we have a monthly production of 3.5 million meters in home textiles, we offer 1.5 million meters / months, 1600 colors and continuously increasing color options in wedding dresses and evening dresses. <br> At the same time, we continue to produce fabrics that will meet the needs of the entire health sector in the field of medical clothing.
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="features">
+                    <div class="qual fea-item">
+                        <img src="./imgs/medal.png" alt="">
+                        <p>Quality</p>
+                    </div>
+                    <div class="exp fea-item">
+                        <img src="./imgs/review.png" alt="">
+                        <p>Experince</p>
+                    </div>
+                    <div class="inno fea-item">
+                        <img src="./imgs/idea.png" alt="">
+                        <p>Innovation</p>
+                    </div>
+                    <div class="tech fea-item">
+                        <img src="./imgs/tech.png" alt="">
+                        <p>Technology</p>
+                    </div>
+                    <div class="nature fea-item">
+                        <img src="./imgs/nature.png" alt="nature friendly">
+                        <p>Nature Friendly</p>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <!-- If we need pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+  
+        
+    </div>
+
+    <div id="products" class="products divs">
+        <div class="products-title">
+            <h2>Products</h2>
+        </div>
+        <div id="products-content" class="products-content">
+            <div class="products-content-fix">
+                <div id="home-textiles" class="home-textiles" onclick="openProduct(1);">
+                    <img class="curtain-img products-img" src="./imgs/curtain.png" alt="curtain">
+                    <div class="product-text">Home Textiles</div>
+                </div>
+                <div class="dress" onclick="openProduct(2);">
+                    <img class="dress-img products-img" src="./imgs/dress.png" alt="dress">
+                    <div class="product-text">Wedding/Evening Dress</div>
+                </div>
+                <div class="outerwear" onclick="openProduct(3);">
+                    <img class="outerwear-img products-img" src="./imgs/outer.png" alt="outerwear">
+                    <div class="product-text">Outerwear</div>
+                </div>
+                <div class="underwear" onclick="openProduct(4);">
+                    <img class="underwear-img products-img" src="./imgs/under.png" alt="underwear">
+                    <div class="product-text">Underwear</div>
+                </div>
+                <div class="medical-textiles" onclick="openProduct(5);">
+                    <img class="medical-img products-img" src="./imgs/medical.png" alt="medical">
+                    <div class="product-text">Medical Textiles</div>
+                </div>
+                <div class="tech-textiles" onclick="openProduct(6);">
+                    <img class="technical-img products-img" src="./imgs/technical2.png" alt="technical">
+                    <div class="product-text">Technical Textiles</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="media" class="media divs">
+        <div class="media-title">
+            <h2>Inside The Factory</h2>
+        </div>
+        <div class="media-content">
+            <div class="media-content-fix">
+              <div class="px">
+                  <div class="container">
+                    <div class="slider">
+                      <div class="slider-wrapper">
+                        <div class="slide slide-active">
+                          <figure>
+                            <img src="./imgs/media/g1.jpg" width="1920" height="1080" alt="Image">
+                            <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
+                          </figure>
+                          <div class="slider-content">
+                            <h2>The laboratory from outside</h2>
+                            <p>It includes the outdoor courtyard, a staff lounge, and a small parking lot</p>
+                            <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
+                          </div>
+                        </div>
+                        <div class="slide">
+                          <figure>
+                            <img src="./imgs/media/g2.jpg" width="1920" height="1080" alt="Image">
+                            <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
+                          </figure>
+                          <div class="slider-content">
+                            <h2>Spinning machine</h2>
+                            <p>This machine converts the threads on the spools into fabric</p>
+                            <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
+                          </div>
+                        </div>
+                        <div class="slide">
+                          <figure>
+                            <img src="./imgs/media/g3.jpg" width="1920" height="1080" alt="Image">
+                            <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
+                          </figure>
+                          <div class="slider-content">
+                            <h2>Thread preparation stage</h2>
+                            <p>Here, the large thread spools are prepared to be installed on the spinning machines later</p>
+                            <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
+                          </div>
+                        </div>
+                        <div class="slide">
+                          <figure>
+                            <img src="./imgs/media/g4.jpg" width="1920" height="1080" alt="Image">
+                            <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
+                          </figure>
+                          <div class="slider-content">
+                            <h2>Thread preparation machine</h2>
+                            <p>This machine brings the threads and installs them on the large spool</p>
+                            <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
+                          </div>
+                        </div>
+                        <div class="slide">
+                          <figure>
+                            <img src="./imgs/media/g5.jpg" width="1920" height="1080" alt="Image">
+                            <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
+                          </figure>
+                          <div class="slider-content">
+                            <h2>Fabric production stage</h2>
+                            <p>Here are the spinning machines that produce and convert the thread into fabric for later export</p>
+                            <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
+                          </div>
+                        </div>
+                        <div class="slide">
+                          <figure>
+                            <img src="./imgs/media/g6.jpg" width="1920" height="1080" alt="Image">
+                            <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
+                          </figure>
+                          <div class="slider-content">
+                            <h2>Thread installation</h2>
+                            <p>This is the first stage where the thread is prepared and installed on the large spools</p>
+                            <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
+                          </div>
+                        </div>
+                        <div class="slide">
+                          <figure>
+                            <img src="./imgs/media/g7.jpg" width="1920" height="1080" alt="Image">
+                            <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
+                          </figure>
+                          <div class="slider-content">
+                            <h2>the first stage</h2>
+                            <p>Here, the threads are pulled and the spools are prepared; this is the first stage, and it is located in the thread preparation area</p>
+                            <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
+                          </div>
+                        </div>
+                        <div class="slide slide-last">
+                          <figure>
+                            <img src="https://picsum.photos/id/510/1920/1080" width="1920" height="1080" alt="Image">
+                            <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
+                          </figure>
+                          <div class="slider-content">
+                            <h2>Thanks for watching</h2>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slider-controls">
+                        <span class="slide-control-left">
+                          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff">
+                            <path d="m432-480 156 156q11 11 11 28t-11 28q-11 11-28 11t-28-11L348-452q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l184-184q11-11 28-11t28 11q11 11 11 28t-11 28L432-480Z" />
+                          </svg>
+                        </span>
+                        <span class="slide-control-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff">
+                            <path d="M504-480 348-636q-11-11-11-28t11-28q11-11 28-11t28 11l184 184q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L404-268q-11 11-28 11t-28-11q-11-11-11-28t11-28l156-156Z" />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cert divs" id="cert">
+        <div class="cert-title">
+            <h2>Certifications</h2>
+        </div>
+        <div class="cert-content">
+            <div id="cert-item1" class="cert-item" onclick="openCertFunc(1);">
+                <img class="cert-img" src="./imgs/ser1.jpg" alt="">
+            </div>
+            <div id="cert-item2" class="cert-item" onclick="openCertFunc(2);">
+                <img class="cert-img" src="./imgs/ser2.jpg" alt="">
+            </div>
+            <div id="cert-item3" class="cert-item" onclick="openCertFunc(3);">
+                <img class="cert-img" src="./imgs/ser3.jpg" alt="">
+            </div>
+            <div id="cert-item4" class="cert-item" onclick="openCertFunc(4);">
+                <img class="cert-img" src="./imgs/ser4.jpg" alt="">
+            </div>
+            <div id="cert-item5" class="cert-item" onclick="openCertFunc(5);">
+                <img class="cert-img" src="./imgs/ser5.jpg" alt="">
+            </div>
+            <div id="cert-item6" class="cert-item" onclick="openCertFunc(6);">
+              <img class="cert-img" src="./imgs/ser6.jpg" alt="">
+          </div>
+        </div>
+    </div>
+
+    <div id="brands" class="brands divs">
+        <div class="brands-title">
+            <h2>Brands</h2>
+        </div>
+        <div class="brands-content">
+            <img class="brands-img" src="./imgs/brands.png" alt="brands">
+            <img src="./imgs/brands-mobile.png" alt="brands-mobile" class="brands-mobile-img">
+        </div>
+    </div>
+
+    <div id="g-map" class="g-map divs">
+        <div class="g-map-title">
+            <h2>On Map</h2>
+        </div>
+        <div class="g-map-content">
+          <div class="office-map">
+              <p class="office-map-title">
+                Office
+              </p>
+              <div class="office-map-content">
+                <iframe style="border: 0;" tabindex="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.014350700743!2d29.036137315277692!3d41.024941979299115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7e4c5d09441%3A0x432abeb33c7b8509!2zYXTEsWzEsW0gb3JtZSBzYW4gdmUgZMSxcyB0xLFjIGEuxZ8!5e0!3m2!1str!2str!4v1592819533667!5m2!1str!2str" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen" aria-hidden="false"></iframe>
+              </div>
+
+          </div>
+          <div class="factory-map">
+            <p class="factory-map-title">
+              Factory
+            </p>
+            <div class="factory-map-content">
+              <iframe style="border: 0;" tabindex="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.2667545165805!2d27.88186331528407!3d41.215956979280286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b4df06d57996db%3A0x252043e306e271fe!2satilim%20orme%20san%20ve%20d%C4%B1s%20t%C4%B1caret%20as!5e0!3m2!1str!2str!4v1592819738322!5m2!1str!2str" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen" aria-hidden="false"></iframe>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact divs">
+        <div class="contact-title">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="contact-content">
+            <div class="contact-office">
+                <h3>Head Office</h3>
+                <span>I S T A N B U L</span> 
+                <span>Altunizade Mahallesi,</span> 
+                <span>İcadiye Bağlarbaşı Yolu, No:18</span> 
+                <span>Üsküdar / İstanbul</span> <br>
+                <span>Telefon:</span>
+                <span>+90 216 651 76 40</span>
+                <span>+90 216 651 76 43</span> <br>
+                <span>Faks:</span> 
+                <span>+90 216 651 76 44</span> <br>
+                <span><a href="">GoogleMaps Yol Tarifi için tıklayınız.</a></span>
+            </div>
+            <div class="contact-factory">
+                <h3>Factory</h3>
+                <span>Ç O R L U </span>
+                <span>Velimeşe Sanayi Bölgesi,</span> 
+                <span>Hacı Şeremet Mevkii</span> 
+                <span>Çorlu / Tekirdağ</span> <br>
+                <span>Telefon:</span> 
+                <span>+90 282 674 53 53 </span>
+                <span>+90 282 674 53 54</span> <br>
+                <span>Faks:</span> 
+                <span>+90 282 674 53 56</span> <br>
+                <span><a href="">GoogleMaps Yol Tarifi için tıklayınız.</a></span> 
+            </div>
+            <div class="contact-msg">
+                <h3>Send Message</h3>
+                <label for="">Name:</label>
+                <input type="text" class="name"> <br>
+                <label for="">Email:</label>
+                <input type="email" class="email"> <br>
+                <label for="">Subject:</label>
+                <input type="text" class="subject"> <br>
+                <label for="">The Message:</label>
+                <textarea name="" id="msg" class="the-message"></textarea>
+                <button class="send-btn">Send</button>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © Copyright 2024   |   All Rights Reserved.   |   Atılım Örme Sanayi ve Dış Ticaret A.Ş. 
+        </div>
+    </div>
+
+    <button id="up-btn" class="up-btn" onclick="goUpFunc();">
+      <img src="./imgs/arr2.svg" alt="arrow-up">
+    </button>
+    <div id="blur" class="blur"></div>
+    <script src="./libs/swiper/swiper-bundle.min.js"></script>
+    <script src="./libs/imgs-slider/slider.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
+<!-- 
+
+< Munzer Mohammed >
+
+         \   ^__^
+          \  (oo)\_______
+             (__)\       )\/\
+                 ||----w |
+                 ||     || 
+                
+-->
