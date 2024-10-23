@@ -94,26 +94,26 @@ const swiper = new Swiper('.swiper', {
 
 
   let blury = document.getElementById('blur');
+  let certImg;
   ///open certifications function
   function openCertFunc(item){
     let cert = document.querySelector(`#cert-item${item}`);
-    let certImg = document.querySelector(`#cert-item${item} img`);
-    if(cert.classList.contains('opened')){
-      certImg.style = 'width: 60%; position: relative;transform: unset;'
-      blury.style = 'visibility:hidden; opacity: 0;'
+   certImg = document.querySelector(`#cert-item${item} .cert-img`);
 
-    }else{
-      certImg.style = `position:fixed; width: auto; height: 90%; z-index:9999999; left:50%; top:50%; transform:translate(-50%,-50%);box-shadow:0 0 15px #242424`
-      blury.style = 'visibility: visible; opacity: 1';
-    }
-    cert.classList.toggle('opened');
+   blury.style = 'visibility: visible; opacity: 1';
+   blury.innerHTML = `<img src='./imgs/ser${item}.jpg' class='cert-browse'> `
+
   }
+  blury.addEventListener('click' , function(){
+    blury.innerHTML = ' '
+    blury.style = 'visibility: hidden; opacity:0;'
+  })
 
   //UP button
   let upBtn = document.getElementById('up-btn');
   window.addEventListener('scroll' , function(){
     if(this.window.scrollY > 100){
-      upBtn.style = 'right: 1.5%'
+      upBtn.style = 'right: 3.5%'
     }else{
       upBtn.style = 'right: -60px'
     }
@@ -236,16 +236,18 @@ function goBackProducts(){
 // open burger lists inside navbar in mobile mode
 let ulList = document.querySelector('ul.list');
 function openBurgerList(){
-  
+  let ulList = document.querySelector('ul.list');
   ulList.classList.toggle('open-list')
 }
 
 // hide list navbar if clicked on item in mobile mode
-ulList.addEventListener('click' , function(){
-  if(ulList.classList.contains('open-list')){
-    setTimeout(() => {
-      this.classList.remove('open-list');
-    }, 200);
-    
-  }
-})
+  ulList.addEventListener('click' , function(){
+    if(ulList.classList.contains('open-list')){
+      setTimeout(() => {
+        this.classList.remove('open-list');
+      }, 200);
+      
+    }
+  })
+
+

@@ -19,9 +19,7 @@
         height: 50px;
         width: 100%;
         justify-content: center;
-        transform: scale(1.1);
         align-items: center;
-        float: none;
         margin-top: 20px;
     }
     .line{
@@ -31,9 +29,11 @@
         display: none;
     }
 
-.lng-in-navbar {
-    display: block;
-}
+    .lng-in-navbar {
+        display: block;
+        width: 31px;
+        height: 29px;
+    }
     .navbar ul{
         flex-wrap: wrap;
         justify-content: center;
@@ -50,17 +50,17 @@
         display: none;
     }
     .atilim{
-        margin-bottom: 10px;
+        margin-bottom: 30px !important;
+        width: 90%;
+        margin: 0 auto;
     }
     .swiper-slide{
         width: 100%;
         left: 0;
     }
-    .products-content-fix{
-
-    }
     .main-div{
         margin-bottom: 30px;
+        background: linear-gradient(90deg, #7f1f78db, #d73434db);
     }
     .products-content-fix > div{
         width: calc(50% - 3px);
@@ -90,6 +90,7 @@
     }
     .brands-mobile-img{
         display: block;
+        width: 160px;
     }
     .brands-content{
         height: 720px;
@@ -132,7 +133,7 @@
         padding: 5px;
     }
     .cert-item {
-        width: calc(50% - 10px);
+        width: calc(48% - 10px);
     }
     .cert-img {
         width: 100%;
@@ -148,6 +149,11 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+    }
+
+    .c-item {
+        width: 52px;
+        height: 52px;
     }
     .navbar ul.list{
         visibility: hidden;
@@ -175,7 +181,7 @@
     .up-btn{
         width: 45px;
         height: 45px;
-        bottom: 2%;
+        bottom: 5%;
         border-radius: 50px;
     }
     .swiper{
@@ -201,6 +207,70 @@
         width: 100%;
     }
     h3{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
+    .fea-item img {
+        width: 80px;
+    }
+    .map-url{
+        text-align: center;
+    }
+    .media-content{
+        padding-top: 100%;
+    }
+    .slider-wrapper .slide-active .slider-content h2{
+        font-size: 14px;
+        text-align: center;
+    }
+    .slider-wrapper .slide-active .slider-content p{
+        font-size: 12px;
+    }
+    .slider-controls{
+        position: relative;
+        height: 50%;
+        top: 50%;
+    }
+    .slider .slider-controls .slide-control-left, .slider .slider-controls .slide-control-right{
+        width: 12vmin;
+        height: 12vmin;
+    }
+    .slider .slider-controls .slide-control-left:hover, .slider .slider-controls .slide-control-right:hover{
+        width: 12vmin;
+        height: 12vmin;
+    }
+    .slider{
+        padding: 0;
+        height: 100%;
+    }
+    .eng-img{
+        filter: drop-shadow(0 0 5px #666);
+    }
+    .grid{
+        opacity: .12;
+        background-image: url(./imgs/grid.png);
+        filter: drop-shadow(0 0 15px #000);
+    }
+    .slider .slider-controls .slide-control-right {
+        right: -18px !important;
+    }
+    .slider-wrapper .slide .slider-content {
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        text-align: center;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+    .slider-wrapper{
+        height: 140%;
+        max-height: 140%;
+    }
+    .product-item, .g-map-content, .brands-content, .media-content-fix, .cert-content, .products-content-fix{
+        box-shadow: 0 0 7px #b8b8b8;
+    }
+    .cert-browse{
+        position:fixed; width: 80%; height: auto; z-index:9999999; left:50%; top:50%; transform:translate(-50%,-50%);box-shadow:0 0 15px #242424; border-radius:15px;
+      }
+
 }
+
