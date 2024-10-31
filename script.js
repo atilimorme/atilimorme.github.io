@@ -251,3 +251,19 @@ function openBurgerList(){
   })
 
 
+  function openAboutMobileFunc(){
+    let textsMobile = document.getElementById('texts-mobile');
+    textsMobile.classList.add('open-about')
+
+    //stop document scroll
+    document.documentElement.style = 'overflow-y: hidden'
+  }
+  function exitAboutMobileFunc(){
+    let textsMobile = document.getElementById('texts-mobile');
+    textsMobile.classList.remove('open-about')
+
+        //return document scroll
+    document.documentElement.style = 'overflow-y: scroll'
+  }
+
+

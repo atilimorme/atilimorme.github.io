@@ -30,6 +30,7 @@
         </div>
     </header>
     <nav id="navbar" class="navbar">
+      <!-- <div class="linear-bkg-nav"></div> -->
         <div class="navbar-mobile">
             <div class="lng lng-in-navbar">
               <img class="eng-img" src="./imgs/lng3.png" alt="eng">
@@ -53,27 +54,23 @@
     <div id="main-div" class="main-div">
         <video class="vid-main" src="./vids/vid-main.mp4" autoplay loop muted></video>
         <div class="linear-bkg"></div>
-        <div class="grid">
-            <!-- <img src="./imgs/grid.png" alt="" class="grid-img"> -->
-        </div>
+        <div class="grid"></div>
         
 
 
 
         <div class="no-swiper">
+          <div class="linear-bkg-mobile"></div>
+          <div class="grid"></div>
             <div class="atilim">
               <img src="./imgs/atilim orme svg.png" alt="">
             </div>
 
-            <div class="texts">
-                  <p class="text">
-                      As Atılım Örme Sanayi ve Dış Ticaret A.Ş., we are proud to represent Turkey in the world under this name. As we entered the millennium era with our company, which was established in 2000 on the foundations we laid in 1990, we have also modernized the textile industry. Since our establishment, we have increased our production capacity every year and have always been one step ahead by keeping up with the developing technology.
-                      <br>
-                      As Atılım Örme, we aim to increase our quality by keeping up with the world and to become a company that is followed by the world, while starting the business life with our own resources and as a local brand. We contribute to our country’s economy by keeping a high volume of imports and maintaining high-level partnerships with Turkey’s leading textile firms. <br>
-
-                      We are at the top in the production and export of gown and mask fabric as well as leading the sector by being among the pioneers of the textile production sector. <br> In categories such as home textiles, wedding dresses, evening dresses, outerwear, underwear, medical clothing and technical textiles, we meet the needs of companies and customers at an optimum level by producing high-quality products. While we have a monthly production of 3.5 million meters in home textiles, we offer 1.5 million meters / months, 1600 colors and continuously increasing color options in wedding dresses and evening dresses. <br> At the same time, we continue to produce fabrics that will meet the needs of the entire health sector in the field of medical clothing.
-                  </p>
+            <div class="about-mobile">
+              <button class="about-btn" onclick="openAboutMobileFunc()">About Us</button>
             </div>
+
+            <div class="space-mobile">. . .</div>
 
             <div class="features">
               <div class="qual fea-item">
@@ -428,6 +425,19 @@
     <button id="up-btn" class="up-btn" onclick="goUpFunc();">
       <img src="./imgs/arr2.svg" alt="arrow-up">
     </button>
+
+    <div id="texts-mobile" class="texts texts-mobile">
+      <p class="text text-mobile">
+          As Atılım Örme Sanayi ve Dış Ticaret A.Ş., we are proud to represent Turkey in the world under this name. As we entered the millennium era with our company, which was established in 2000 on the foundations we laid in 1990, we have also modernized the textile industry. Since our establishment, we have increased our production capacity every year and have always been one step ahead by keeping up with the developing technology.
+          <br>
+          As Atılım Örme, we aim to increase our quality by keeping up with the world and to become a company that is followed by the world, while starting the business life with our own resources and as a local brand. We contribute to our country’s economy by keeping a high volume of imports and maintaining high-level partnerships with Turkey’s leading textile firms. <br>
+
+          We are at the top in the production and export of gown and mask fabric as well as leading the sector by being among the pioneers of the textile production sector. <br> In categories such as home textiles, wedding dresses, evening dresses, outerwear, underwear, medical clothing and technical textiles, we meet the needs of companies and customers at an optimum level by producing high-quality products. While we have a monthly production of 3.5 million meters in home textiles, we offer 1.5 million meters / months, 1600 colors and continuously increasing color options in wedding dresses and evening dresses. <br> At the same time, we continue to produce fabrics that will meet the needs of the entire health sector in the field of medical clothing.
+      </p>
+      <div class="exit-about">
+        <button class="exit-about-btn" onclick="exitAboutMobileFunc();">X</button>
+      </div>
+</div>
     <div id="blur" class="blur"></div>
     <script src="./libs/swiper/swiper-bundle.min.js"></script>
     <script src="./libs/imgs-slider/slider.js"></script>
