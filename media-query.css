@@ -31,8 +31,9 @@
 
     .lng-in-navbar {
         display: block;
-        width: 26px;
-        height: 24px;
+        width: 25px;
+        height: 22px;
+        margin-left: 5px;
     }
     .navbar ul{
         flex-wrap: wrap;
@@ -196,14 +197,9 @@
         position: relative;
     }
     .text{
-        font-size: 3.8vmin;
+        font-size: 4.2vmin;
         line-height: 2;
         padding: 0;
-        
-        
-        
-        !i;
-        !;
     }
     .vid-main{
     filter: blur(1px);

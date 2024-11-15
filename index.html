@@ -16,7 +16,7 @@
             <img id="logo" class="logo" src="./imgs/logo.png" alt="atilim-orme">
         </div>
         <div class="lng-contact">
-            <div class="lng">
+            <div class="lng" onclick="changeLng();">
                 <img class="eng-img" src="./imgs/eng.png" alt="eng">
             </div>
             <span class="line"></span>
@@ -32,7 +32,7 @@
     <nav id="navbar" class="navbar">
       <!-- <div class="linear-bkg-nav"></div> -->
         <div class="navbar-mobile">
-            <div class="lng lng-in-navbar">
+            <div class="lng lng-in-navbar" onclick="changeLng();">
               <img class="eng-img" src="./imgs/lng3.png" alt="eng">
             </div>
             <div id="burger" class="burger" onclick="openBurgerList();">
@@ -42,13 +42,13 @@
         </div>
 
         <ul class="list">
-            <li class="item corp-item item-focus" onclick="goCorporateFunc();">CORPORATE</li>
-            <li class="item prod-item" onclick="goProductFunc();">PRODUCTS</li>
-            <li class="item fac-item" onclick="goMediaFunc();">FACTORY</li>
-            <li class="item certi-item" onclick="goCertFunc();" >CERTIFICATIONS</li>
-            <li class="item brand-item" onclick="goBrandsFunc();">BRANDS</li>
-            <li class="item map-item" onclick="goMapFunc();">MAP</li>
-            <li class="item contact-item" onclick="goContactFunc();">CONTACT US</li>
+            <li class="item corp-item item-focus" onclick="goCorporateFunc();" lng="corporate">CORPORATE</li>
+            <li class="item prod-item" onclick="goProductFunc();" lng="products">PRODUCTS</li>
+            <li class="item fac-item" onclick="goMediaFunc();" lng="factory">FACTORY</li>
+            <li class="item certi-item" onclick="goCertFunc();" lng="cert">CERTIFICATIONS</li>
+            <li class="item brand-item" onclick="goBrandsFunc();" lng="brands">BRANDS</li>
+            <li class="item map-item" onclick="goMapFunc();" lng="map">MAP</li>
+            <li class="item contact-item" onclick="goContactFunc();" lng="contact">CONTACT US</li>
         </ul>
     </nav>
     <div id="main-div" class="main-div">
@@ -67,7 +67,7 @@
             </div>
 
             <div class="about-mobile">
-              <button class="about-btn" onclick="openAboutMobileFunc()">About Us</button>
+              <button class="about-btn" onclick="openAboutMobileFunc()" lng="about">About Us</button>
             </div>
 
             <div class="space-mobile">. . .</div>
@@ -75,23 +75,23 @@
             <div class="features">
               <div class="qual fea-item">
                   <img src="./imgs/medal.png" alt="">
-                  <p>Quality</p>
+                  <p lng="quality">Quality</p>
               </div>
               <div class="exp fea-item">
                   <img src="./imgs/review.png" alt="">
-                  <p>Experince</p>
+                  <p lng="experince">Experince</p>
               </div>
               <div class="inno fea-item">
                   <img src="./imgs/idea.png" alt="">
-                  <p>Innovation</p>
+                  <p lng="innovation">Innovation</p>
               </div>
               <div class="tech fea-item">
                   <img src="./imgs/tech.png" alt="">
-                  <p>Technology</p>
+                  <p lng="technology">Technology</p>
               </div>
               <div class="nature fea-item">
                   <img src="./imgs/nature.png" alt="nature friendly">
-                  <p>Nature Friendly</p>
+                  <p lng="nature">Nature Friendly</p>
               </div>
           </div>
         </div>
@@ -105,7 +105,7 @@
                     <img src="./imgs/atilim orme svg.png" alt="">
                 </div>
                 <div class="texts">
-                    <p class="text">
+                    <p class="text" lng="text1">
                         As Atılım Örme Sanayi ve Dış Ticaret A.Ş., we are proud to represent Turkey in the world under this name. As we entered the millennium era with our company, which was established in 2000 on the foundations we laid in 1990, we have also modernized the textile industry. Since our establishment, we have increased our production capacity every year and have always been one step ahead by keeping up with the developing technology.
                     </p>
                 </div>
@@ -113,7 +113,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="texts">
-                    <p class="text text2">
+                    <p class="text text2" lng="text2">
                         As Atılım Örme, we aim to increase our quality by keeping up with the world and to become a company that is followed by the world, while starting the business life with our own resources and as a local brand. We contribute to our country’s economy by keeping a high volume of imports and maintaining high-level partnerships with Turkey’s leading textile firms. <br>
 
                         We are at the top in the production and export of gown and mask fabric as well as leading the sector by being among the pioneers of the textile production sector. <br> In categories such as home textiles, wedding dresses, evening dresses, outerwear, underwear, medical clothing and technical textiles, we meet the needs of companies and customers at an optimum level by producing high-quality products. While we have a monthly production of 3.5 million meters in home textiles, we offer 1.5 million meters / months, 1600 colors and continuously increasing color options in wedding dresses and evening dresses. <br> At the same time, we continue to produce fabrics that will meet the needs of the entire health sector in the field of medical clothing.
@@ -125,23 +125,23 @@
                 <div class="features">
                     <div class="qual fea-item">
                         <img src="./imgs/medal.png" alt="">
-                        <p>Quality</p>
+                        <p lng="quality">Quality</p>
                     </div>
                     <div class="exp fea-item">
                         <img src="./imgs/review.png" alt="">
-                        <p>Experince</p>
+                        <p lng="experince">Experince</p>
                     </div>
                     <div class="inno fea-item">
                         <img src="./imgs/idea.png" alt="">
-                        <p>Innovation</p>
+                        <p lng="innovation">Innovation</p>
                     </div>
                     <div class="tech fea-item">
                         <img src="./imgs/tech.png" alt="">
-                        <p>Technology</p>
+                        <p lng="technology">Technology</p>
                     </div>
                     <div class="nature fea-item">
                         <img src="./imgs/nature.png" alt="nature friendly">
-                        <p>Nature Friendly</p>
+                        <p lng="nature">Nature Friendly</p>
                     </div>
                 </div>
             </div>
@@ -163,33 +163,33 @@
 
     <div id="products" class="products divs">
         <div class="products-title">
-            <h2>Products</h2>
+            <h2 lng="products">Products</h2>
         </div>
         <div id="products-content" class="products-content">
             <div class="products-content-fix">
                 <div id="home-textiles" class="home-textiles" onclick="openProduct(1);">
                     <img class="curtain-img products-img" src="./imgs/curtain.png" alt="curtain">
-                    <div class="product-text">Home Textiles</div>
+                    <div class="product-text" lng="hometxtl">Home Textiles</div>
                 </div>
                 <div class="dress" onclick="openProduct(2);">
                     <img class="dress-img products-img" src="./imgs/dress.png" alt="dress">
-                    <div class="product-text">Wedding/Evening Dress</div>
+                    <div class="product-text" lng="wedding">Wedding/Evening Dress</div>
                 </div>
                 <div class="outerwear" onclick="openProduct(3);">
                     <img class="outerwear-img products-img" src="./imgs/outer.png" alt="outerwear">
-                    <div class="product-text">Outerwear</div>
+                    <div class="product-text" lng="outer">Outerwear</div>
                 </div>
                 <div class="underwear" onclick="openProduct(4);">
                     <img class="underwear-img products-img" src="./imgs/under.png" alt="underwear">
-                    <div class="product-text">Underwear</div>
+                    <div class="product-text" lng="under">Underwear</div>
                 </div>
                 <div class="medical-textiles" onclick="openProduct(5);">
                     <img class="medical-img products-img" src="./imgs/medical.png" alt="medical">
-                    <div class="product-text">Medical Textiles</div>
+                    <div class="product-text" lng="medical">Medical Textiles</div>
                 </div>
                 <div class="tech-textiles" onclick="openProduct(6);">
                     <img class="technical-img products-img" src="./imgs/technical2.png" alt="technical">
-                    <div class="product-text">Technical Textiles</div>
+                    <div class="product-text" lng="tech">Technical Textiles</div>
                 </div>
             </div>
         </div>
@@ -211,8 +211,8 @@
                             <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
                           </figure>
                           <div class="slider-content">
-                            <h2>The laboratory from outside</h2>
-                            <p>It includes the outdoor courtyard, a staff lounge, and a small parking lot</p>
+                            <h2 lng="outsideimg">The laboratory from outside</h2>
+                            <p lng="outsideimgp">It includes the outdoor courtyard, a staff lounge, and a small parking lot</p>
                             <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
                           </div>
                         </div>
@@ -222,8 +222,8 @@
                             <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
                           </figure>
                           <div class="slider-content">
-                            <h2>Spinning machine</h2>
-                            <p>This machine converts the threads on the spools into fabric</p>
+                            <h2 lng="machineimg">Spinning machine</h2>
+                            <p lng="machineimgp">This machine converts the threads on the spools into fabric</p>
                             <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
                           </div>
                         </div>
@@ -233,8 +233,8 @@
                             <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
                           </figure>
                           <div class="slider-content">
-                            <h2>Thread preparation stage</h2>
-                            <p>Here, the large thread spools are prepared to be installed on the spinning machines later</p>
+                            <h2 lng="stageimg">Thread preparation stage</h2>
+                            <p lng="stageimgp">Here, the large thread spools are prepared to be installed on the spinning machines later</p>
                             <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
                           </div>
                         </div>
@@ -244,8 +244,8 @@
                             <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
                           </figure>
                           <div class="slider-content">
-                            <h2>Thread preparation machine</h2>
-                            <p>This machine brings the threads and installs them on the large spool</p>
+                            <h2 lng="threadmachineimg">Thread preparation machine</h2>
+                            <p lng="threadmachineimgp">This machine brings the threads and installs them on the large spool</p>
                             <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
                           </div>
                         </div>
@@ -255,8 +255,8 @@
                             <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
                           </figure>
                           <div class="slider-content">
-                            <h2>Fabric production stage</h2>
-                            <p>Here are the spinning machines that produce and convert the thread into fabric for later export</p>
+                            <h2 lng="fabricimg">Fabric production stage</h2>
+                            <p lng="fabricimgp">Here are the spinning machines that produce and convert the thread into fabric for later export</p>
                             <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
                           </div>
                         </div>
@@ -266,8 +266,8 @@
                             <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
                           </figure>
                           <div class="slider-content">
-                            <h2>Thread installation</h2>
-                            <p>This is the first stage where the thread is prepared and installed on the large spools</p>
+                            <h2 lng="installationimg">Thread installation</h2>
+                            <p lng="installationimgp">This is the first stage where the thread is prepared and installed on the large spools</p>
                             <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
                           </div>
                         </div>
@@ -277,8 +277,8 @@
                             <!-- <figcaption>The Lorem Ipsum for photos.</fugcaption> -->
                           </figure>
                           <div class="slider-content">
-                            <h2>the first stage</h2>
-                            <p>Here, the threads are pulled and the spools are prepared; this is the first stage, and it is located in the thread preparation area</p>
+                            <h2 lng="firststageimg">the first stage</h2>
+                            <p lng="firststageimgp">Here, the threads are pulled and the spools are prepared; this is the first stage, and it is located in the thread preparation area</p>
                             <!-- <a href="#test" class="primary">Lorem ipsum</a> -->
                           </div>
                         </div>
@@ -441,6 +441,7 @@
     <div id="blur" class="blur"></div>
     <script src="./libs/swiper/swiper-bundle.min.js"></script>
     <script src="./libs/imgs-slider/slider.js"></script>
+    <script src="./languages.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

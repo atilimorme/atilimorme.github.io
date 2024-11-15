@@ -182,14 +182,15 @@ function openProduct(indx){
     .then(response => response.text())
     .then(data =>{
       products.innerHTML += data;
+      setLanguage(lngNow);
     })
-    .catch(error => console.error('Error:', error));
   }
   if(indx == 2){
     fetch('./pages/wedding.html')
     .then(response => response.text())
     .then(data =>{
       products.innerHTML += data
+      setLanguage(lngNow);
     })
   }
   if(indx == 3){
@@ -197,6 +198,7 @@ function openProduct(indx){
     .then(response => response.text())
     .then(data =>{
       products.innerHTML += data
+      setLanguage(lngNow);
     })
   }
   if(indx == 4){
@@ -204,6 +206,7 @@ function openProduct(indx){
     .then(response => response.text())
     .then(data =>{
       products.innerHTML += data
+      setLanguage(lngNow);
     })
   }
   if(indx == 5){
@@ -211,6 +214,7 @@ function openProduct(indx){
     .then(response => response.text())
     .then(data =>{
       products.innerHTML += data
+      setLanguage(lngNow);
     })
   }
   if(indx == 6){
@@ -218,10 +222,14 @@ function openProduct(indx){
     .then(response => response.text())
     .then(data =>{
       products.innerHTML += data
+      setLanguage(lngNow);
     })
   }
 
   goProductFunc();
+  
+
+
 }
 
 // Go back btn in products
@@ -256,14 +264,14 @@ function openBurgerList(){
     textsMobile.classList.add('open-about')
 
     //stop document scroll
-    document.documentElement.style = 'overflow-y: hidden'
+    // document.documentElement.style = 'overflow-y: hidden'
   }
   function exitAboutMobileFunc(){
     let textsMobile = document.getElementById('texts-mobile');
     textsMobile.classList.remove('open-about')
 
         //return document scroll
-    document.documentElement.style = 'overflow-y: scroll'
+    // document.documentElement.style = 'overflow-y: scroll'
   }
 
 
