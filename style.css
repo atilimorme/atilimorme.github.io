@@ -81,7 +81,7 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(45deg, #814f7c, #bd4545);
+  background:  linear-gradient(45deg, #7f5c7b, #d33838);
   box-shadow: 0px 0px 5px #000000;
   /*backdrop-filter: blur(12px) contrast(1.2) brightness(1.1);*/
   user-select: none;
@@ -440,7 +440,7 @@ min-height: 150px;
 resize: vertical;
 }
 
-.send-btn {font-size: 1.2rem;padding: 9px 30px;background: linear-gradient(45deg, #814f7c, #bd4545);outline: none;border: none;border-radius: 7px;cursor: pointer;box-shadow: 0 5px 5px #101010;color: #fff;margin-top: 10px;transition: all .1s ease;width: 100%;}
+.send-btn {font-size: 1.2rem;padding: 9px 30px;background: linear-gradient(45deg, #7f5c7b, #d33838);outline: none;border: none;border-radius: 7px;cursor: pointer;box-shadow: 0 5px 5px #101010;color: #fff;margin-top: 10px;transition: all .1s ease;width: 100%;}
 
 .copyright {
 text-align: center;
