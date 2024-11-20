@@ -1,3 +1,5 @@
+<!-- The Website Creator Munzer Mohammed -->
+ <!-- monzermohamd1@gmail.com -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +19,7 @@
         </div>
         <div class="lng-contact">
             <div class="lng" onclick="changeLng();">
-                <img class="eng-img" src="./imgs/eng.png" alt="eng">
+                <img id="lng-img" class="eng-img" src="./imgs/eng.png" alt="eng">
             </div>
             <span class="line"></span>
             <div class="contact-mini">
@@ -33,7 +35,7 @@
       <!-- <div class="linear-bkg-nav"></div> -->
         <div class="navbar-mobile">
             <div class="lng lng-in-navbar" onclick="changeLng();">
-              <img class="eng-img" src="./imgs/lng3.png" alt="eng">
+              <img id="lng-img2" class="eng-img" src="./imgs/lng3.png" alt="eng">
             </div>
             <div id="burger" class="burger" onclick="openBurgerList();">
               <img class="burger-img" src="./imgs/burger.svg" alt="burger">
@@ -169,26 +171,32 @@
             <div class="products-content-fix">
                 <div id="home-textiles" class="home-textiles" onclick="openProduct(1);">
                     <img class="curtain-img products-img" src="./imgs/curtain.png" alt="curtain">
+                    <div class="color-div color-red"></div>
                     <div class="product-text" lng="hometxtl">Home Textiles</div>
                 </div>
                 <div class="dress" onclick="openProduct(2);">
                     <img class="dress-img products-img" src="./imgs/dress.png" alt="dress">
+                    <div class="color-div color-blue"></div>
                     <div class="product-text" lng="wedding">Wedding/Evening Dress</div>
                 </div>
                 <div class="outerwear" onclick="openProduct(3);">
                     <img class="outerwear-img products-img" src="./imgs/outer.png" alt="outerwear">
+                    <div class="color-div color-yellow"></div>
                     <div class="product-text" lng="outer">Outerwear</div>
                 </div>
                 <div class="underwear" onclick="openProduct(4);">
                     <img class="underwear-img products-img" src="./imgs/under.png" alt="underwear">
+                    <div class="color-div color-green"></div>
                     <div class="product-text" lng="under">Underwear</div>
                 </div>
                 <div class="medical-textiles" onclick="openProduct(5);">
                     <img class="medical-img products-img" src="./imgs/medical.png" alt="medical">
+                    <div class="color-div color-orange"></div>
                     <div class="product-text" lng="medical">Medical Textiles</div>
                 </div>
                 <div class="tech-textiles" onclick="openProduct(6);">
                     <img class="technical-img products-img" src="./imgs/technical2.png" alt="technical">
+                    <div class="color-div color-pink"></div>
                     <div class="product-text" lng="tech">Technical Textiles</div>
                 </div>
             </div>
@@ -197,7 +205,7 @@
 
     <div id="media" class="media divs">
         <div class="media-title">
-            <h2>Inside The Factory</h2>
+            <h2 lng="insidef">Inside The Factory</h2>
         </div>
         <div class="media-content">
             <div class="media-content-fix">
@@ -313,7 +321,7 @@
 
     <div class="cert divs" id="cert">
         <div class="cert-title">
-            <h2>Certifications</h2>
+            <h2 lng="cert">Certifications</h2>
         </div>
         <div class="cert-content">
             <div id="cert-item1" class="cert-item" onclick="openCertFunc(1);">
@@ -334,12 +342,15 @@
             <div id="cert-item6" class="cert-item" onclick="openCertFunc(6);">
               <img class="cert-img" src="./imgs/ser6.jpg" alt="">
           </div>
+          <div id="cert-item7" class="cert-item" onclick="openCertFunc(7);">
+            <img class="cert-img" src="./imgs/ser7.jpg" alt="">
+        </div>
         </div>
     </div>
 
     <div id="brands" class="brands divs">
         <div class="brands-title">
-            <h2>Brands</h2>
+            <h2 lng="brands">Brands</h2>
         </div>
         <div class="brands-content">
             <img class="brands-img" src="./imgs/brands.png" alt="brands">
@@ -349,11 +360,11 @@
 
     <div id="g-map" class="g-map divs">
         <div class="g-map-title">
-            <h2>On Map</h2>
+            <h2 lng="onmap">On Map</h2>
         </div>
         <div class="g-map-content">
           <div class="office-map">
-              <p class="office-map-title">
+              <p lng="office" class="office-map-title">
                 Office
               </p>
               <div class="office-map-content">
@@ -362,7 +373,7 @@
 
           </div>
           <div class="factory-map">
-            <p class="factory-map-title">
+            <p lng="factory" class="factory-map-title">
               Factory
             </p>
             <div class="factory-map-content">
@@ -374,46 +385,46 @@
 
     <div id="contact" class="contact divs">
         <div class="contact-title">
-            <h2>Contact Us</h2>
+            <h2 lng="contact">Contact Us</h2>
         </div>
         <div class="contact-content">
             <div class="contact-office">
-                <h3>Head Office</h3>
+                <h3 lng="hoffice">Head Office</h3>
                 <span>I S T A N B U L</span> 
                 <span>Altunizade Mahallesi,</span> 
                 <span>İcadiye Bağlarbaşı Yolu, No:18</span> 
                 <span>Üsküdar / İstanbul</span> <br>
-                <span>Telefon:</span>
+                <span lng="tel">Telefon:</span>
                 <span>+90 216 651 76 40</span>
                 <span>+90 216 651 76 43</span> <br>
-                <span>Faks:</span> 
+                <span lng="fax">Faks:</span> 
                 <span>+90 216 651 76 44</span> <br>
                 <span class="map-url"><a href="">GoogleMaps Yol Tarifi için tıklayınız.</a></span>
             </div>
             <div class="contact-factory">
-                <h3>Factory</h3>
+                <h3 lng="factory">Factory</h3>
                 <span>Ç O R L U </span>
                 <span>Velimeşe Sanayi Bölgesi,</span> 
                 <span>Hacı Şeremet Mevkii</span> 
                 <span>Çorlu / Tekirdağ</span> <br>
-                <span>Telefon:</span> 
+                <span lng="tel">Telefon:</span> 
                 <span>+90 282 674 53 53 </span>
                 <span>+90 282 674 53 54</span> <br>
-                <span>Faks:</span> 
+                <span lng="fax">Faks:</span> 
                 <span>+90 282 674 53 56</span> <br>
                 <span class="map-url"><a href="">GoogleMaps Yol Tarifi için tıklayınız.</a></span> 
             </div>
             <div class="contact-msg">
-                <h3>Send Message</h3>
-                <label for="">Name:</label>
+                <h3 lng="sndmsg">Send Message</h3>
+                <label lng="name" for="">Name:</label>
                 <input type="text" class="name"> <br>
-                <label for="">Email:</label>
+                <label lng="email" for="">Email:</label>
                 <input type="email" class="email"> <br>
-                <label for="">Subject:</label>
+                <label lng="subject" for="">Subject:</label>
                 <input type="text" class="subject"> <br>
-                <label for="">The Message:</label>
+                <label lng="themsg" for="">The Message:</label>
                 <textarea name="" id="msg" class="the-message"></textarea>
-                <button class="send-btn">Send</button>
+                <button lng="snd" class="send-btn">Send</button>
             </div>
         </div>
 
