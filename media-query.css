@@ -285,9 +285,9 @@
         box-shadow: 0 0 7px #b8b8b8;
     }
 
-.media-content-fix {
-    padding: 0;
-}
+    .media-content-fix {
+        padding: 0;
+    }
     .cert-browse{
         position:fixed; width: 80%; height: auto; z-index:9999999; left:50%; top:50%; transform:translate(-50%,-50%);box-shadow:0 0 15px #242424; border-radius:15px;
       }
@@ -298,6 +298,12 @@
       .product-images img {
         width: 100%;
     }
+    .products-content-fix > div .color-div{
+        opacity: .5;
+      }
+      .products-content-fix > div img{
+        filter: drop-shadow(0 0 10px black) brightness(.8);
+      }
 
 }
 
