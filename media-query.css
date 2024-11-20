@@ -299,7 +299,8 @@
         width: 100%;
     }
     .products-content-fix > div .color-div{
-        opacity: .5;
+        opacity: .45;
+        top: -100%;
       }
       .products-content-fix > div img{
         filter: drop-shadow(0 0 10px black) brightness(.8);
