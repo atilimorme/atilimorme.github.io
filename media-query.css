@@ -305,6 +305,8 @@
       .products-content-fix > div img{
         filter: drop-shadow(0 0 10px black) brightness(.8);
       }
-
+    .atilim-text-container{
+        display: none;
+    }
 }
 
