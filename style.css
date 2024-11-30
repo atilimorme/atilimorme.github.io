@@ -366,7 +366,6 @@ padding-top: 40%;
 }
 
 .brands-content{
-  height: 280px;
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 0 7px #d8d8d8;
@@ -376,6 +375,9 @@ padding-top: 40%;
   padding: 0px;
   justify-content: center;
   align-items: center;
+  padding-top: 25%;
+  width: 100%;
+  position: relative;
 }
 .g-map-content{
   height: 440px;
@@ -392,9 +394,7 @@ padding-top: 40%;
 .brands-title{
 
 }
-.brands-img {
-filter: drop-shadow(0px 20px 20px #dd8585);
-}
+.brands-img {filter: drop-shadow(0px 20px 20px #dd8585);position: absolute;top: 50%;left: 50%;width: 65%;transform: translate(-50% , -50%);}
 .divs{
   padding: 15px 7%;
   padding-top: 15px;
