@@ -234,12 +234,22 @@ function openProduct(indx){
     }
   }
   if(indx == 4){
+if (lngNow == "tr"){
     fetch('./pages/underwear.html')
     .then(response => response.text())
     .then(data =>{
       products.innerHTML += data
       setLanguage(lngNow);
     })
+}else{
+    fetch('../pages/underwear.html')
+    .then(response => response.text())
+    .then(data =>{
+      products.innerHTML += data
+      setLanguage(lngNow);
+    })
+}
+
   }
   if(indx == 5){
     if(lngNow == 'tr'){
