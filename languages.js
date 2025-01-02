@@ -1,21 +1,5 @@
 let languages = {
     en: {
-        corporate: 'Corporate',
-        products: 'Products',
-        factory: 'Factory',
-        cert: 'Certifications',
-        brands: 'Brands',
-        map: 'Map',
-        contact: 'Contact Us',
-        about: 'About Us',
-        quality: 'Quality',
-        experince: 'Experince',
-        innovation: 'Innovation',
-        technology: 'Technology',
-        nature: 'Nature Friendly',
-        text1: 'As Atılım Örme Sanayi ve Dış Ticaret A.Ş., we are proud to represent Turkey in the world under this name. As we entered the millennium era with our company, which was established in 2000 on the foundations we laid in 1990, we have also modernized the textile industry. Since our establishment, we have increased our production capacity every year and have always been one step ahead by keeping up with the developing technology.',
-        text2: `As Atılım Örme, we aim to increase our quality by keeping up with the world and to become a company that is followed by the world, while starting the business life with our own resources and as a local brand. We contribute to our country’s economy by keeping a high volume of imports and maintaining high-level partnerships with Turkey’s leading textile firms. <br>
-We are at the top in the production and export of gown and mask fabric as well as leading the sector by being among the pioneers of the textile production sector. <br> In categories such as home textiles, wedding dresses, evening dresses, outerwear, underwear, medical clothing and technical textiles, we meet the needs of companies and customers at an optimum level by producing high-quality products. While we have a monthly production of 3.5 million meters in home textiles, we offer 1.5 million meters / months, 1600 colors and continuously increasing color options in wedding dresses and evening dresses. <br> At the same time, we continue to produce fabrics that will meet the needs of the entire health sector in the field of medical clothing. <br> * * *`,
         hometxtl: 'Home Textiles',
         hometxtlcontent: `Home textiles are fabrics that complement, protect and visualize the parts of your home. In addition to creating a decorative effect, home textile products make living spaces and furniture more comfortable. Almost every fabric in the house is included in the home textile. For example, upholstery fabrics, curtains, tulle, furniture and even pillow covers are considered as home textile products.
 Home textile has gained more importance in the modern period than in the past. Since people want useful products as well as aesthetic style, the properties of the fabrics used in home textiles have become important and the variety of fabrics has been increased. In this context, home textile aims to increase the quality of the spaces and presents them to the consumer in the most useful and comfortable form. In this sense, the most important point is the fabrics used in home textile products.
@@ -48,52 +32,8 @@ Gowns and masks are as important as surgical covers. Medical gowns, which are ma
 • They may have features such as electrical conduction and insulation, heat conduction and insulation. <br>
 • Technical textile materials can be surgical materials, prostheses or biological materials dissolved in the body. In this way, they are convenient to use for human health. <br>
 • Moreover, the technical textile materials can protect the environment and people from thermal, mechanical and radiological effects.`,
-        insidefactory: 'Inside The Factory',
-        outsideimg: 'The laboratory from outside',
-        outsideimgp: 'It includes the outdoor courtyard, a staff lounge, and a small parking lot',
-        machineimg: 'Spinning machine',
-        machineimgp: 'This machine converts the threads on the spools into fabric',
-        stageimg: 'Thread preparation stage',
-        stageimgp: 'Here, the large thread spools are prepared to be installed on the',
-        threadmachineimg: 'Thread preparation machine',
-        threadmachineimgp: 'This machine brings the threads and installs them on the large spool',
-        fabricimg: 'Fabric production stage',
-        fabricimgp: 'Here are the spinning machines that produce and convert the thread into fabric',
-        installationimg: 'Thread installation',
-        installationimgp: 'This is the first stage where the thread is prepared and installed on the large spool',
-        firststageimg: 'the first stage',
-        firststageimgp: 'Here, the threads are pulled and the spools are prepared; this is the first stage',
-        insidef: 'Inside The Factory',
-        onmap: 'On Map',
-        office: 'Office',
-        sndmsg: 'Send Message',
-        hoffice: 'Head Office',
-        name: 'Name:',
-        email: 'email:',
-        subject: 'Subject:',
-        themsg: 'The Message:',
-        snd: 'Send',
-        tel: 'Phone',
-        fax: 'Fax',
-
     },
     tr:{
-        corporate: 'Kurumsal',
-        products: 'Ürünler',
-        factory: 'Fabrika',
-        cert: 'Sertifikalar',
-        brands: 'Brands',
-        map: 'Harita',
-        contact: 'İletişim',
-        about: 'Hakkımızda',
-        quality: 'Kalite',
-        experince: 'Tecrübe',
-        innovation: 'Yenilikçi',
-        technology: 'Teknoloji',
-        nature: 'Doğa Dostu',
-        text1: 'Atılım Örme Sanayi ve Dış Ticaret A.Ş. olarak, bu isimle Türkiye’yi tüm dünyada temsil etmekten gurur duyuyoruz. 1990 yılında attığımız temellerin üzerine, 2000 yılında kurulan firmamızla milenyum çağına girerken, tekstil sektörüne de çağ atlattık. Kuruluşumuzdan itibaren, her yıl üretim kapasitemizi artırdık ve gelişen teknolojiye ayak uydurarak her zaman bir adım önde olduk.',
-        text2: `Atılım Örme olarak, tamamen öz kaynaklarla ve yerli bir marka olarak ticaret hayatımıza başlarken, dünyayı takip ederek kalitemizi artırmayı ve dünya tarafından takip edilen bir firma olmayı hedefledik. Türkiye’nin önde gelen tekstil firmaları ile üst düzey iş ortaklıkları sürdürürken, ihracat hacmimizi de yüksek tutarak ülke ekonomisine katkıda bulunuyoruz.
-Tekstil üretim sektörünün öncüleri arasında yer alarak sektöre yön vermekle birlikte önlük ve maske kumaşı üretiminde ve ihracatında zirvede yer alıyoruz. Ev tekstili, gelinlik-abiye, dış giyim, iç giyim, medikal giyim ve teknik tekstil gibi kategorilerde; yüksek kaliteli ürünler üreterek firmaların ve müşterilerimizin ihtiyaçlarını, optimum düzeyde karşılıyoruz. Ev tekstilinde aylık 3,5 milyon metrelik üretime sahipken, gelinlik ve abiyede 1,5 milyon metre / ay , 1600 adet ve sürekli artan renk seçeneği sunuyoruz. Aynı zamanda medikal tekstil alanında da tüm sağlık sektörünün ihtiyacını karşılayacak kumaşlar üretmeye devam ediyoruz. <br> * * *`,
         hometxtl: 'Ev Tekstili',
         hometxtlcontent: `Ev tekstili, evinizin parçalarını tamamlayan, koruyan ve görselleştiren kumaşlardır. Ev tekstili ürünleri dekoratif bir etki yaratmanın yanı sıra yaşam alanlarını ve eşyaları daha konforlu hale getirir. Ev içerisinde bulunan hemen her kumaş, ev tekstiline dahildir. Örneğin döşemelik kumaşlar, perdeler, tüller ve mobilyalar hatta yastık kılıfları bile ev tekstili ürünü olarak kabul edilir.
 Modern dönemde ev tekstili geçmişe oranla daha çok önem kazanmıştır. İnsanlar estetik duruşun yanında aynı zamanda kullanışlı ürünler istediği için ev tekstilinde kullanılan kumaşların özellikleri de önemli hale gelmiş ve kumaş çeşitliliği artırılmıştır. Bu bağlamda ev tekstili, mekânların kalitesini arttırmayı, en kullanışlı ve konforlu haliyle kullanıcıya sunmayı hedefler. Burada en önemli nokta; ev tekstili ürünlerinde kullanılan kumaşlardır.
@@ -126,37 +66,47 @@ Cerrahi örtü kumaşı olarak tasarlanan polyester kumaşlar Avrupa Birliği’
 • Elektrik iletim ve yalıtımı, ısı iletim ve yalıtımı gibi özelliklere sahip olabilirler. <br>
 • Teknik tekstil malzemeleri ameliyat malzemeleri, protez veya vücutta çözülen biyolojik malzemeler olabilirler. Bu sayede insan sağlığında rahatça kullanılabilir. <br>
 • Aynı zamanda teknik tekstil malzemesi ile ortamın ve kişilerin ısıl, mekaniksel ve radyolojik etkilerden korunması sağlanabilir.`,
-        insidefactory: 'Fabrikanın İçinde',
-        outsideimg: 'Laboratuvar dışarıdan',
-        outsideimgp: 'Açık avlu, personel salonu ve küçük bir otoparktan oluşmaktadır.',
-        machineimg: 'İplik makinesi',
-        machineimgp: 'Bu makine makaralardaki iplikleri kumaşa dönüştürüyor',
-        stageimg: 'Konu hazırlama aşaması',
-        stageimgp: 'Burada büyük iplik makaraları makineye takılmak üzere hazırlanır.',
-        threadmachineimg: 'İplik hazırlama makinesi',
-        threadmachineimgp: 'Bu makine iplikleri getirir ve büyük makaraya yerleştirir',
-        fabricimg: 'Kumaş üretim aşaması',
-        fabricimgp: 'İşte ipliği üretip ipliğe dönüştüren iplik makinaları',
-        installationimg: 'Konu kurulumu',
-        installationimgp: 'Bu, ipliğin hazırlandığı ve büyük makaraya takıldığı ilk aşamadır.',
-        firststageimg: 'ilk aşama',
-        firststageimgp: 'Burada iplikler çekilerek makaralar hazırlanır; bu ilk aşama',
-        insidef: 'Fabrikanın İçinde',
-        onmap: 'Haritada',
-        office: 'Ofis',
-        sndmsg: 'Mesaj Gönder',
-        hoffice: 'Merkez Ofis',
-        name: 'Ad:',
-        email: 'Email:',
-        subject: 'Konu:',
-        themsg: 'İletiniz:',
-        snd: 'Gönder',
-        tel: 'Telefon',
-        fax: 'Faks',
-
-        
-    }
+        },
+        ar:{
+                hometxtl: 'المنسوجات المنزلية',
+                hometxtlcontent: `تُعتبر المنسوجات المنزلية أقمشة تُكمل، تحمي، وتُبرز أجزاء المنزل. بالإضافة إلى خلق تأثير زخرفي، تُضيف منتجات المنسوجات المنزلية الراحة إلى أماكن المعيشة والأثاث. تقريبًا كل قماش في المنزل يُصنَّف ضمن المنسوجات المنزلية. على سبيل المثال، أقمشة التنجيد، الستائر، التل، الأثاث وحتى أغطية الوسائد تُعتبر منتجات منسوجات منزلية.
+<br>
+لقد اكتسبت المنسوجات المنزلية أهمية أكبر في العصر الحديث مقارنة بالماضي. بما أن الناس يرغبون في الحصول على منتجات مفيدة بجانب الطراز الجمالي، أصبحت خصائص الأقمشة المستخدمة في المنسوجات المنزلية ذات أهمية، وزادت تنوع الأقمشة. في هذا السياق، تهدف المنسوجات المنزلية إلى تحسين جودة المساحات وتقديمها للمستهلك بأكثر شكل مفيد ومريح. في هذا المعنى، النقطة الأكثر أهمية هي الأقمشة المستخدمة في منتجات المنسوجات المنزلية.
+<br>
+يجب أن يكون كل منتج مُدمجًا مع الأقمشة المناسبة لغرضه لتوفير جودة وراحة مناسبة. على سبيل المثال، الراحة المتوقعة من الستائر والأرائك هي أن تكون مقاومة للبقع وناعمة. يجب تفضيل هذا النوع من الأقمشة في التغطية.
+الأقمشة المستخدمة في المنسوجات المنزلية:
+<br>
+• يجب أن تكون مقاومة للأوساخ والبقع،<br>
+• يجب أن تكون مقاومة للشمس والضوء،<br>
+• يجب ألا تكون قابلة للشحنات الكهربائية،<br>
+• يجب أن تكون سهلة التنظيف،<br>
+• يجب أن تكون ذات بنية ناعمة.`,
+                wedding: 'فساتين الزفاف والسهرة',
+                weddingcontent: `رمز الزواج، أحد أهم الأحداث في الحياة، هو فستان الزفاف. يجب أن يكون فستان الزفاف الذي سيتم ارتداؤه في حفل زفاف حيث ستُعاش أجمل الذكريات فريدًا من نوعه. هناك العديد من أنواع فساتين الزفاف، وأكثرها تفضيلًا هي الفساتين الحديثة والكلاسيكية وأسلوب عروس البحر وأسلوب هيلين والفساتين المنتفخة (أسلوب الأميرة). فساتين الزفاف، التي تتميز بتصاميم متنوعة من الفساتين بدون أكمام إلى ذات الأكمام الطويلة، يمكن أن تبهر الناس ببساطتها أو بالأحجار والتطريزات. <br>
+الفساتين المسائية هي نوع من الفساتين التي ترتديها السيدات في المناسبات الخاصة بأبهى حلة. توجد فساتين مسائية تناسب كل يوم خاص بقيم دقيقة وإشراق تتراوح من 20 دينير إلى 300 دينير. هناك فساتين مسائية أنيقة لأولئك الذين يبحثون عن البساطة، وهناك أيضًا فساتين براقة وملفتة للنظر. التنوع الكبير في الفساتين المسائية يجعلها مناسبة للارتداء في الخطوبات، ليالي الحناء، الحفلات، الرقصات، حفلات التخرج، الدعوات الخاصة وغير ذلك الكثير. الفساتين المسائية، المناسبة لجميع الأعمار، تجعل من الممكن الحصول على مظهر مبهر دون التضحية بالأناقة.`,
+                under: 'الألبسة الداخلية',
+                undercontent: `الملابس الداخلية تشمل المنتجات التي تُصنَّع وتُرتدى لحماية الجسم والحفاظ على نظافته. ومع تطور وتغير المنسوجات والموضة، تنوعت أهداف استخدام الملابس الداخلية لتتجاوز هذا الغرض الأساسي. من أكثر منتجات مجموعة الملابس الداخلية استخدامًا: القمصان الداخلية، السراويل الداخلية، وحمالات الصدر. بالإضافة إلى ذلك، تشمل المجموعة منتجات مثل ملابس السباحة، البكيني، الباريوهات، قمصان النوم، وأردية الاستحمام. <br>
+تُستخدم حمالات الصدر لحماية الصدر من العوامل الخارجية، إبقائه مشدودًا، وضمان عدم ظهور معالمه من خلال الملابس. تفي الحمالات الكلاسيكية بهذه الأهداف، بينما تهدف الحمالات المدعومة إلى إبقاء الصدر مشدودًا أو جعله يبدو أكبر حجمًا. <br>
+الغرض الرئيسي من السراويل الداخلية هو حماية المناطق الحساسة من العوامل الخارجية والحفاظ على نظافتها. يجب أن تُصنع أقمشة السراويل الداخلية من القطن لضمان صحة المناطق الحساسة. بالإضافة إلى ذلك، هناك سراويل داخلية مصممة بشكل جمالي، تُناسب النساء بشكل خاص، وأيضًا الرجال. <br>
+تُستخدم ملابس السباحة والبكيني ضمن مجموعة الملابس الداخلية كملابس خارجية على الشواطئ وفي المصايف الصيفية. تُنتج أنواع ملابس السباحة والبكيني المطلوبة للسباحة بتصاميم مختلفة، سواء للتشمس أو للظهور بأناقة في أماكن العطلات.`,
+                outer: 'الألبسة',
+                outercontent: `الملابس الخارجية تُعد من الفئات ذات النطاق الأكبر من المنتجات في صناعة الملابس. بالإضافة إلى المنتجات التي تُرتدى لتلبية الاحتياجات الأساسية، تؤدي متطلبات الموضة الحديثة إلى ظهور أنواع مختلفة من الملابس الخارجية. تنقسم فئة الملابس الخارجية إلى مجموعتين رئيسيتين: الملابس السفلية والملابس العلوية، وتناسب هذه الفئة جميع الأعمار ولكلا الجنسين. تشمل مجموعة الملابس السفلية منتجات مثل السراويل، التنانير، الشورتات، وملابس الرياضة. بينما تتضمن مجموعة الملابس العلوية منتجات مثل الليغينغ، التونيكات، البلوزات، السترات، القمصان، التيشيرتات، والكنزات. <br>
+يعتمد تزايد أنواع الملابس الخارجية يومًا بعد يوم وتراجع استخدام بعض المنتجات على عادات الموضة الحالية. كما يزداد انتشار أنواع الملابس الخارجية التي تتكيف مع مفاهيم الموضة. وبما أن عادة ارتداء الملابس الخارجية تتغير حسب الموسم، فإن بعض المنتجات تُقبل موسميًا ضمن الموضة. إضافةً إلى ذلك، تُدرج منتجات الملابس الخارجية في مجموعات مختلفة حسب العمر والجنس. ومن بين المجموعات المحددة الأخرى، تأتي مجموعة الملابس الخارجية التي تشمل زي المدرسة وزي العمل بالإضافة إلى الزي الموحد.`,
+                medical: 'المنسوجات الطبية',
+                medicalcontent: `تشمل المنسوجات الطبية المنتجات ذات الخصائص المضادة للبكتيريا التي تُستخدم في مجال الصحة. تُستخدم المنسوجات الطبية بشكل أساسي في المستشفيات وتشمل العباءات، البدلات، والأقنعة التي يرتديها العاملون في مجال الرعاية الصحية، بالإضافة إلى الأقمشة المخصصة للعمليات الجراحية وأغطية الأسرة. وعادةً ما تُصنع منتجات الملابس الطبية للاستخدام لمرة واحدة، والسبب الرئيسي لذلك هو تحقيق النظافة. <br>
+الأقمشة القطنية المصممة كأقمشة ستائر جراحية لا تُلبي المعايير التي حددها الاتحاد الأوروبي. الملابس الجراحية هي ملابس تُصنع لمنع انتقال الفيروسات بين المريض والطبيب وللفصل بين المناطق المعقمة وغير المعقمة. يجب أن تكون الستائر الجراحية بمثابة حاجز ضد البكتيريا. ومن هذا المنطلق، تُظهر المنتجات التي تُستخدم لمرة واحدة نتائج أفضل مقارنةً بالعباءات الجراحية والستائر المصممة كأقمشة. <br>
+العباءات والأقنعة لا تقل أهمية عن الستائر الجراحية. العباءات الطبية المصنوعة من نسيج محبوك 100% من البوليستر تتميز بخصائص مضادة للبكتيريا ومقاومة للماء. فهي قابلة للتنفس وخالية من المواد السامة. وكل من الأقنعة والمآزر المصنوعة من قماش البوليستر قابلة لإعادة الاستخدام. وعلى الرغم من استخدامها بشكل أساسي في القطاع الصحي، فإنها تُستخدم أحيانًا في قطاعات أخرى.`,
+                tech: 'المنسوجات التقنية',
+                techcontent: `الهدف الرئيسي من المنسوجات التقنية هو إنتاج منتجات وظيفية ذات أداء تقني عالٍ بدلاً من المنتجات ذات المزايا الجمالية والزخرفية. تُعتبر المنسوجات التقنية مجموعة تتطور وتتنوع حسب الاحتياجات. تشمل الاستخدامات الرئيسية للمنسوجات التقنية مجالات البناء، السيارات، الطب، الرياضة، الصناعة، التغليف، الزراعة، المنسوجات البيئية والجغرافية، بالإضافة إلى المنسوجات المنزلية. تتميز المنتجات في مجموعة المنسوجات التقنية ببعض الخصائص المحددة. <br>
+• من حيث الخصائص الميكانيكية، تُعد القوة، المرونة، والتعزيز من الصفات المتوقعة في المنسوجات التقنية. <br>
+• تمتلك المنسوجات التقنية القدرة على تغيير حالة المادة. <br>
+• المنتجات المسامية لديها القدرة على السماح بمرور الجسيمات الصغيرة ومنع الجسيمات الكبيرة. <br>
+• قد تتضمن خصائص مثل التوصيل الكهربائي والعزل، توصيل الحرارة والعزل الحراري. <br>
+• يمكن أن تكون المواد المستخدمة في المنسوجات التقنية مواد جراحية، أطراف صناعية، أو مواد بيولوجية تذوب داخل الجسم، مما يجعلها ملائمة للاستخدام لصحة الإنسان. <br>
+• علاوة على ذلك، يمكن لمواد المنسوجات التقنية حماية البيئة والبشر من التأثيرات الحرارية، الميكانيكية، والإشعاعية.`,
+            }
 }
+
 let lngNow;
 let elements = document.querySelectorAll('[lng]');
 // Refresh languages function on display
@@ -165,34 +115,19 @@ function setLanguage(language){
     elements.forEach(item =>{
         
         let key = item.getAttribute('lng');
-        item.innerHTML = languages[language][key];
-        // item.style = 'filter: blur(0px); transition: filter .3s ease';
+        if(languages[language][key] !== undefined){
+                item.innerHTML = languages[language][key];
+        }
+        
     })
 }
 
-// set turkish language when open website
-setLanguage('tr');
-lngNow = 'tr';
-
-function changeLng(){
-    // elements.forEach(item=>{
-    //     item.style = 'filter: blur(10px); opacity: 1; transition: filter 1s ease-in';
-    // })
-    // setTimeout(() => {
-        if(lngNow == 'tr'){
-            setLanguage('en');
-            document.getElementById('lng-img').setAttribute('src' , './imgs/tr.png');
-            lngNow = 'en'
-        }else if(lngNow == 'en'){
-            setLanguage('tr');
-            document.getElementById('lng-img').setAttribute('src' , './imgs/eng.png');
-            lngNow = 'tr'
-        }
-
-    //     elements.forEach(item=>{
-    //         item.style = 'filter: blur(0px); opacity: 1; transition: filter 1s ease-out';
-    //     })
-    // }, 1000);
-
-
+function openLng(){
+        document.querySelector('.langs-div').classList.add('show');
 }
+
+document.querySelector('.langs-div').onclick = function(){
+        this.classList.remove('show');
+}
+
+

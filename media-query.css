@@ -318,5 +318,8 @@
     .atilim-text-container{
         display: none;
     }
+    .langs-opt{
+        flex-direction: column;
+    }
 }
 

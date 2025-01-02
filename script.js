@@ -101,7 +101,12 @@ const swiper = new Swiper('.swiper', {
    certImg = document.querySelector(`#cert-item${item} .cert-img`);
 
    blury.style = 'visibility: visible; opacity: 1';
+   if(lngNow == 'tr'){
    blury.innerHTML = `<img src='./imgs/ser${item}.jpg' class='cert-browse'> `
+   }else{
+       blury.innerHTML = `<img src='../imgs/ser${item}.jpg' class='cert-browse'> `
+   }
+
 
   }
   blury.addEventListener('click' , function(){
@@ -178,28 +183,55 @@ function openProduct(indx){
   let productsContent = document.getElementById('products-content');
   productsContent.style = 'display:none'
   if (indx == 1){
-    fetch('./pages/home-textiles.html')
-    .then(response => response.text())
-    .then(data =>{
-      products.innerHTML += data;
-      setLanguage(lngNow);
-    })
+    if(lngNow == 'tr'){
+      fetch('./pages/home-textiles.html')
+      .then(response => response.text())
+      .then(data =>{
+        products.innerHTML += data;
+        setLanguage(lngNow);
+      })
+    }else{
+      fetch('../pages/home-textiles.html')
+      .then(response => response.text())
+      .then(data =>{
+        products.innerHTML += data;
+        setLanguage(lngNow);
+      })
+    }
   }
   if(indx == 2){
-    fetch('./pages/wedding.html')
-    .then(response => response.text())
-    .then(data =>{
-      products.innerHTML += data
-      setLanguage(lngNow);
-    })
+    if(lngNow == 'tr'){
+      fetch('./pages/wedding.html')
+      .then(response => response.text())
+      .then(data =>{
+        products.innerHTML += data
+        setLanguage(lngNow);
+      })
+    }else{
+      fetch('../pages/wedding.html')
+      .then(response => response.text())
+      .then(data =>{
+        products.innerHTML += data
+        setLanguage(lngNow);
+      })
+    }
   }
   if(indx == 3){
-    fetch('./pages/outerwear.html')
-    .then(response => response.text())
-    .then(data =>{
-      products.innerHTML += data
-      setLanguage(lngNow);
-    })
+    if(lngNow == 'tr'){
+      fetch('./pages/outerwear.html')
+      .then(response => response.text())
+      .then(data =>{
+        products.innerHTML += data
+        setLanguage(lngNow);
+      })
+    }else{
+      fetch('../pages/outerwear.html')
+      .then(response => response.text())
+      .then(data =>{
+        products.innerHTML += data
+        setLanguage(lngNow);
+      })
+    }
   }
   if(indx == 4){
     fetch('./pages/underwear.html')
@@ -210,20 +242,39 @@ function openProduct(indx){
     })
   }
   if(indx == 5){
-    fetch('./pages/medical.html')
-    .then(response => response.text())
-    .then(data =>{
-      products.innerHTML += data
-      setLanguage(lngNow);
-    })
+    if(lngNow == 'tr'){
+      fetch('./pages/medical.html')
+      .then(response => response.text())
+      .then(data =>{
+        products.innerHTML += data
+        setLanguage(lngNow);
+      })
+    }else{
+      fetch('../pages/medical.html')
+      .then(response => response.text())
+      .then(data =>{
+        products.innerHTML += data
+        setLanguage(lngNow);
+      })
+    }
   }
   if(indx == 6){
-    fetch('./pages/teknik.html')
-    .then(response => response.text())
-    .then(data =>{
-      products.innerHTML += data
-      setLanguage(lngNow);
-    })
+    if(lngNow == 'tr'){
+      fetch('./pages/teknik.html')
+      .then(response => response.text())
+      .then(data =>{
+        products.innerHTML += data
+        setLanguage(lngNow);
+      })
+    }else{
+      fetch('../pages/teknik.html')
+      .then(response => response.text())
+      .then(data =>{
+        products.innerHTML += data
+        setLanguage(lngNow);
+      })
+    }
+
   }
 
   goProductFunc();
